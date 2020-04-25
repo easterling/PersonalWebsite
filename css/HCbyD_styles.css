@@ -1,0 +1,561 @@
+
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    width: 98%;
+    border:0;
+    border-top:4px solid #1f4e79;
+    margin:1%;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+
+
+/***********************MY CODE**************/
+
+
+/*******************CLASS SELETORS***********/
+
+/*Header (Banner & Nav) Section*/
+
+.styles-bg-css {
+  width: 100%;
+  height: 20%;
+  margin-top: 3%;
+  padding-right: 5%;
+  background-color: none;
+}
+
+.nav-link {
+  font-family: 'Montserrat', serif;
+  font-weight: 900;
+  color: 	#1f4e79;
+  font-size: 20px;
+  text-shadow: .5px .5px 1px #000;
+}
+
+.nav-link:hover {
+  color: 	#d3d3d3;
+  text-decoration: none;
+}
+
+.dropdown-menu {
+  width: 3em;
+  margin-top: -2%;
+  margin-left: 63%;
+  border-left: solid 2px #1f4e79;
+  border-right: solid 2px #1f4e79;
+  border-bottom: solid 2px #1f4e79;
+}
+
+.dropdown-item {
+  width: 60%;
+  margin-left: 0%;
+  margin-right: -10%;
+  padding-left: 5%;
+  font-family: 'Montserrat', serif;
+  font-weight: 900;
+  color: 	#1f4e79;
+  font-size: 16px;
+  line-height: 16px;
+  text-align: left;
+  border: solid 2px none;
+}
+
+
+/*Main Section*/
+
+.img-block-A {
+  padding-left: 2%;
+  margin-right: 0;
+  padding-right: 0;
+}
+
+.img-block-B {
+  margin-left: 0;
+  padding-left: 0;
+  margin-right: 0;
+  padding-right: 0;
+}
+
+.img-block-C {
+  margin-left: 0;
+  padding-left: 0;
+  padding-right: 2%;
+}
+
+.format-images {
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  height: 53vh;
+  margin-bottom: 0;
+}
+
+.about-section {
+/*  background-color: #2969a4; */
+  width: 100%;
+  height: 60vh;
+  overflow: hidden;
+  margin-top: 30%;
+  padding-top: 0em;
+  padding-bottom: 1%;
+  background-color: #2969a4;
+}
+
+/*.hat-logo img {
+  width: 70%;
+  height: 70%;
+  margin: 100px 0 50px 60px;
+  transform: rotate(-40deg);
+
+}*/
+
+.chef-logo img {
+  width: 50%;
+  height: 70%;
+  margin-top: -50px;
+}
+
+.heading-banner img {
+  width: 215%;
+  margin-left: -1.5%;
+}
+
+.format-heading {
+  width: 90%;
+  font-family: 'Montserrat', serif;
+  font-weight: 900;
+  color: 	#1f4e79;
+  font-size: 30px;
+  text-shadow: 2px 2px 2px #000;
+  line-height: 55px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 1% 0 1%;
+}
+
+.format-content {
+  width: 90%;
+  font-family: 'Montserrat', serif;
+  font-weight: bolder;
+  color: 	#d3d3d3;
+  font-size: 20px;
+  text-shadow: .5px .5px 1px #000;
+  line-height: 32px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 1% 3% 1%;
+}
+
+.leftside {
+  height: 48vh;
+  margin-top: 3%;
+}
+
+.rightside {
+  height: 44vh;
+  margin-top: 7%;
+  border-left: solid 4px #1f4e79;
+}
+
+.format-clientLogo{
+  width: 100%;
+  height: 5em;
+}
+
+.format-clientLogo img {
+  width: 80%;
+  height: 50%;
+  margin: 0 6% 10% 15%;
+}
+
+.contact-info {
+  font-family: 'Montserrat', serif;
+  font-weight: 900;
+  color: 	#d3d3d3;
+  font-size: 20px;
+  text-shadow: .5px .5px 1px #000;
+  line-height: 35px;
+  padding: 0% 0% 5% 10%
+
+}
+
+.contact-info a {
+  color: #d3d3d3;
+  text-decoration: none;
+}
+
+.contact-info a:hover {
+  color: #1f4e79;
+  text-decoration: none;
+}
+
+.footer-menu-container {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 5%;
+  padding-bottom: 2%;
+}
+
+.button-container{
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 26%;
+  padding-bottom: 5%;
+  width: 80%;
+
+}
+
+.format-button {
+  background-color: #1f4e79;
+  border-color: #1f4e79;
+  width: 200px;
+  height: 50px;
+  font-family: 'Montserrat', serif;
+  font-weight: 900;
+  color: 	#d3d3d3;
+  font-size: 20px;
+  text-shadow: .5px .5px 1px #000;
+}
+
+.format-button:hover {
+  background-color: #d3d3d3;
+  border-color: #d3d3d3;
+  color: #1f4e79;
+  text-decoration: none;
+}
+
+
+/*
+.carousel-item img {
+  width: 50%;
+  height: 320px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+overflow: hidden;
+}
+*/
+
+/*Footer Section*/
+
+.footer-menu {
+  width: 10rem;
+  margin-left: 6.5%;
+  padding-top: .5rem;
+  float: left;
+}
+
+.footer-menu ul li {
+  display: block;
+  list-style: none;
+}
+
+.footer-menu ul li a {
+  font-family: 'Montserrat', serif;
+  font-size: 18px;
+  line-height: 40px;
+  color: 	#1f4e79;
+  font-size: 20px;
+  margin-top: 20px;
+  text-shadow: .5px .5px 1px #000;
+}
+
+.footer-menu ul li a:hover {
+  color: 	#d3d3d3;
+  text-decoration: none;
+}
+
+.py-2 {
+  width: 10rem;
+  float: right;
+  margin-top: 0;
+}
+
+.py-2 tr td {
+  padding: 4px 0 3px 0;
+}
+
+.format-social-links {
+text-align: center;
+}
+
+
+.format-social-links ul {
+  list-style: none;
+}
+
+.format-social-links ul li {
+  display: inline-block;
+}
+
+.h3-formatCopyright p {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: .5%;
+  text-align: center;
+  padding-bottom: 0rem;
+  color: 	#1f4e79;
+}
+
+.siteby {
+  width: 100%;
+}
+
+.siteby table {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.siteby tr td {
+  padding: 2px 10px;
+}
+
+.copyright-container {
+  width: 80%;
+  margin-left: 10%;
+  margin-right: auto;
+  margin-bottom: 1%;
+}
+
+.leftcol {
+  margin-left: auto;
+  margin-right: -38%;
+  padding-top: 1%;
+}
+
+.leftcol tr td {
+    padding-left: 80px;
+}
+
+.rightcol {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0%;
+  padding-bottom: 0;
+}
+
+.siteby-title {
+  text-align: right;
+  width: 20%;
+  margin-left: 40%;
+  margin-top: 2%;
+  float: left;
+}
+
+
+.h3-formatSiteBy {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: .5%;
+  text-align: center;
+  padding-bottom: 1rem;
+  color: 	#1f4e79;
+}
+
+.brand-logo {
+float: right;
+  width: 80px;
+  height: 40px;
+  margin-right: 23%;
+}
+
+.footer-container {
+  width: 24rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.fa-linkedin, .fa-dribbble {
+  color: red;
+}
+
+.fa-linkedin:hover, .fa-facebook:hover, .fa-dribbble:hover, .fa-twitter:hover {
+  color: #d3d3d3;
+}
+
+/*******************GALLERY PAGE CODE*********************/
+
+.gallery-container {
+  width: 100%;
+  padding-top: 20%;
+}
+
+.image-container {
+  width: 100%;
+  height: 40vh;
+  margin-top: 1%;
+}
+
+
+.format-gallery-img {
+  width: 90%;
+  height: 80%;
+  margin-left: 5%;
+  margin-top: 3%;
+}
+
+
+
+
+/*******************ID SELETORS*********************/
+
+#container-fluid {
+  width: 100%;
+  overflow: hidden;
+/*  background-color: #2969a4; */
+}
+
+#homepage {
+
+  background: url('../images/brandBackgroundV12.png') repeat fixed 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+
+#gallerypage {
+  width: 100%;
+  background: url('../images/PageBackground.png') repeat fixed 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+
+#header {
+  width: 100%;
+  height: 350px;
+  padding-bottom: 14%;
+  position: fixed;
+  margin-top: 0;
+  overflow: hidden;
+  z-index: 1;
+}
+
+#main {
+/*   background-color: #2969a4; */
+  width: 100%;
+  overflow: hidden;
+  padding-bottom: 0%;
+}
+
+#main-gallery {
+  width: 100%;
+  overflow: hidden;
+  padding-bottom: 0%;
+}
+
+#mycarousel {
+  margin-top: 22%;
+  padding-top: 0;
+  padding-bottom: 0;
+  overflow: hidden;
+}
+
+#footer {
+  width: 100%;
+  padding-top: 1%;
+  background-color: #2969a4;
+  overflow: hidden;
+
+}
