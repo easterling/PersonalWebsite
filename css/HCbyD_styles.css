@@ -525,7 +525,7 @@ float: right;
 #header {
   width: 100%;
   height: 370px;
-  padding-bottom: 14%;
+  padding-bottom: 0%;
   position: fixed;
   margin-top: 0;
   overflow: hidden;
