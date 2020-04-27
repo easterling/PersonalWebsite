@@ -196,7 +196,7 @@ input, select {
   font-size: 13px;
   line-height: 18px;
   font-weight: 900;
-  color: #808080;
+  color: #d3d3d3;
   text-align: center;
   text-decoration: none;
   display: block;
@@ -210,8 +210,8 @@ input, select {
 
 .nav-pills li a:focus,
 .nav-pills .nav-link.active {
-  background-color: #808080;
-  color:#d3d3d3;
+  background-color: #d3d3d3;
+  color:#000;
   opacity: 0.5
 }
 
